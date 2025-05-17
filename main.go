@@ -1,7 +1,9 @@
 package main
 
-import "fmt"
+import "github.com/ProImpact/goplop/prompt"
 
 func main() {
-	fmt.Println("this is my jurney as a profesional developer")
+	prompt.NewPrompt(prompt.TextPromptModel(
+		"Whats your name",
+	))
 }
